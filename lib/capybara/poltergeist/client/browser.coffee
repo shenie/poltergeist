@@ -181,7 +181,7 @@ class Poltergeist.Browser
         this.sendResponse(@last_click)
     , 5
 
-  doubleClick: (page_id, id) ->
+  double_click: (page_id, id) ->
     # Get the node before changing state, in case there is an exception
     node = this.node(page_id, id)
 

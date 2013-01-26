@@ -105,7 +105,7 @@ module Capybara::Poltergeist
     end
 
     def double_click(page_id, id)
-      command 'doubleClick', page_id, id
+      command 'double_click', page_id, id
     end
 
     def drag(page_id, id, other_id)
