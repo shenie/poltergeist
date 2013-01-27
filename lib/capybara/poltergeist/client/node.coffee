@@ -40,7 +40,7 @@ class Poltergeist.Node
     else
       throw new Poltergeist.ClickFailed(test.selector, pos)
 
-  doubleClick: ->
+  double_click: ->
     this.scrollIntoView()
 
     pos  = this.clickPosition()
